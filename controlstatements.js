@@ -24,7 +24,7 @@ do
     sum+=i
     i++
 }while(i<=10);
-console.log(sum)*/
+console.log(sum)
 
 //eg 1
 arr=[10,20,30] //valid array
@@ -92,7 +92,7 @@ kongu.forEach(key,element => {
     
 });
 
-//foe of eg
+//for of eg
 
 
 
