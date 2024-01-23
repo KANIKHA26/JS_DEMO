@@ -1,4 +1,4 @@
-//saync dummy eg
+//async dummy eg
 async function asAw(){
     var promise = new Promise(function(response)
         {

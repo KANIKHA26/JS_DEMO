@@ -1,4 +1,4 @@
-//looping
+/*//looping
 //for loop
 sum=0
 for(var i=1;i<=10;i++){
@@ -72,7 +72,7 @@ arr=[10,20,"string",true,"kongu"]
 arr.forEach(value => {
     console.log(value)
 });
- 
+ */
 //eg 2
 var kongu = new Object()
 kongu["fees"] = 100000
@@ -86,13 +86,19 @@ for(const key in kongu){
     console.log(key,kongu[key])
 }
 
+
+kongu = Object.entries(kongu)
+console.log(kongu)
 //for each eg
-kongu.forEach(key,element => {
-    console.log(key,element)
+kongu.forEach(([key,element]) => {
+    console.log(key,":",element)
     
 });
 
 //for of eg
+for([key,value] of kongu){
+    console.log(key,":",value)
+}
 
 
 

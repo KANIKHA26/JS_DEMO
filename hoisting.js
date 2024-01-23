@@ -6,7 +6,7 @@ console.log(a) //=> o/p :undefined
 var a =10  //var =>global scope
 
 console.log(a)  // => o/p: reference error
-let a =10
+//let a =10
 
 
 //functional hoisting

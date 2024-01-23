@@ -77,6 +77,8 @@ tossing()
 
 //example => google map
 //location
+//example => google map
+//location
 function isLocationValid(loc) {
     var v = "Melbourne"
     if (v === loc) {
