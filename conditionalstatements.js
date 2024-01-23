@@ -14,16 +14,16 @@ else{
 //nested if
 var a = 30
 var b = 20
-var c =10
+var c = 10
 if(a>b){
     if(a>c){
         console.log("a is greater")}
     else{
-        console.log("b is greater")
+        console.log("c is greater")
     }
 }
 else {
-    console.log("c is greater")
+    console.log("b is greater")
 }
 
 
